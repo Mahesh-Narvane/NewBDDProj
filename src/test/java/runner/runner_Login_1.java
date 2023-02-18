@@ -15,8 +15,6 @@ import io.cucumber.testng.CucumberOptions;
 		     // to generate html report just add a single line 
 		)
 
-
-
-public class runner_Login_1  extends AbstractTestNGCucumberTests{
+        public class runner_Login_1  extends AbstractTestNGCucumberTests {
 
 }

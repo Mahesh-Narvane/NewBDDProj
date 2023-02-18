@@ -1,11 +1,11 @@
 Feature: xyz
 
   Scenario Outline: Go to GoIbibo and book flight
-    Given launch the browser
-    Then enter the url
-    Given select start point "<start_loc>"
-    When select end point "<end_loc>"
-    Then select no of seat <seats>
+   * launch the browser
+    * enter the url
+    * select start point "<start_loc>"
+    * select end point "<end_loc>"
+    * select no of seat <seats>
 
     Examples: 
       | start_loc  | end_loc        | seats |
